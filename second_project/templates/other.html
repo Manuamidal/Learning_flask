@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+{%block title%}Other Page{%endblock%}
+{%block content%}
+    <h1>Welcome to the Other Page</h1>
+    <p>{{word|lower}}</p>
+    <p>{{word|upper}}</p>
+    <p>{{word|title}}</p>
+    <p>{{word|replace('l','L')}}</p>
+    <p>{{word|reverse}}</p>
+    <p>{{word|repeat}}</p>
+    <p>{{word|repeat(5)}}</p>
+{%endblock%}
